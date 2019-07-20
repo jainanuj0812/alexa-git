@@ -1,0 +1,32 @@
+{
+    "session": {
+      "new": false,
+      "sessionId": "session1234",
+      "attributes": {},
+      "user": {
+        "userId": "usrid123"
+      },
+      "application": {
+        "applicationId": "amzn1.ask.skill.5d3c8c0d-4584-40ed-aaa4-acda8f07fe23"
+      }
+    },
+    "version": "1.0",
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.acf3283b-6415-4625-b798-d73257a61f2c",
+        "timestamp": "2019-07-20T05:13:35Z",
+        "locale": "en-GB",
+        "intent": {
+            "name": "CreateNewRepository",
+            "confirmationStatus": "NONE",
+            "slots": {
+                "repoName": {
+                    "name": "repoName",
+                    "value": "test",
+                    "confirmationStatus": "NONE",
+                    "source": "USER"
+                }
+            }
+        }
+    }
+  }
